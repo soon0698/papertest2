@@ -160,7 +160,7 @@
         <div class="content has-text-justified">
           <p>
             <ol>
-            <li> <b>Feature Plane Representation:</b> Instead of explicitly storing attributes of all primitives in 3DGS, we introduce feature planes to predict all attributes. By introducing progressive training that limits backpropagation at each channel level, we improve training stability.
+            <li> <b>Feature Plane Representation:</b> Instead of explicitly storing attributes of all primitives in 3DGS, we adopt feature planes to predict all attributes. By introducing progressive training that limits backpropagation at each channel level, we improve training stability.
             </li>
             <li> <b>Entropy Loss for Video Codec:</b> Standard video codec is non-differentiable, so we directly optimize the block-wise DCT coefficient of feature plane by entropy modeling. By introducing this loss, the bitstream size of the feature plane is significantly reduced without requiring any codec software modifications.
             </li>
